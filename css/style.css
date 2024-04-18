@@ -1,0 +1,66 @@
+h3:first-child {
+  color: pink;
+}
+#greycol {
+  color: grey;
+}
+div > div > p {
+  color: red;
+}
+p:has(+ .yellow) {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.day {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.day li {
+  padding: 10px;
+}
+
+.day li:first-child {
+  background-color: #ccc;
+}
+
+.day li:first-child:hover {
+  background-color: #c92b2b;
+}
+
+.day li:nth-child(2) {
+  background-color: #31a744;
+}
+.day li:nth-child(2):hover {
+  background-color: #3313c0;
+}
+.day li:nth-child(3) {
+  background-color: palevioletred;
+}
+.day li:nth-child(3):hover {
+  background-color: rgb(233, 199, 5);
+}
+.day li:nth-child(4) {
+  background-color: aqua;
+}
+.day li:nth-child(4):hover {
+  background-color: rgb(240, 36, 138);
+}
+.day li:last-child {
+  background-color: #c92b2b;
+}
+.day li:last-child:hover {
+  background-color: #25b618;
+}
